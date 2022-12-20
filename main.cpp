@@ -94,13 +94,13 @@ public:
 	}
 
 	// Implement the pawn script listener API.
-	void onAmxLoad(IPawnScript* script) override
+	void onAmxLoad(IPawnScript& script) override
 	{
 		// Because we're using `SCRIPT_API` this call automatically registers the declared natives.
-		pawn_natives::AmxLoad(script->GetAMX());
+		pawn_natives::AmxLoad(script.GetAMX());
 	}
 
-	void onAmxUnload(IPawnScript* script) override
+	void onAmxUnload(IPawnScript& script) override
 	{
 	}
 
