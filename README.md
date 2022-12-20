@@ -1,5 +1,5 @@
- open.mp Pawn Compnent Template
-================================
+ open.mp Pawn Component Template
+=================================
 
 This is a simple component start point template.  It demonstrates how to declare pawn functions using the *pawn-natives* derived syntax (old methods are still available) and add per-player data managed by the server.
 
