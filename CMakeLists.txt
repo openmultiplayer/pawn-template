@@ -7,9 +7,9 @@ add_subdirectory(sdk)
 add_subdirectory(network)
 
 include_directories(
-		.
-		pawn/source
-		pawn/source/linux
+	.
+	pawn/source
+	pawn/source/linux
 )
 
 add_definitions(-DHAVE_STDINT_H=1)
