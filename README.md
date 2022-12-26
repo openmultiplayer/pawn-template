@@ -52,3 +52,25 @@ cmake --build . --config Debug
 
 Change `Debug` to `Release` for final versions.
 
+## Building with Docker
+
+```bash
+cd docker
+.\build.sh
+```
+
+You may need to set up some directories first:
+
+```bash
+mkdir build
+mkdir conan
+sudo chown 1000 build
+sudo chown 1000 conan
+```
+
+Or run the script as root:
+
+```bash
+sudo .\build.sh
+```
+
