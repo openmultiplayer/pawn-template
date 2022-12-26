@@ -80,3 +80,5 @@ Or run the script as root:
 sudo .\build.sh
 ```
 
+The output is in `docker/build/`
+
