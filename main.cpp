@@ -13,10 +13,10 @@
 #include <Server/Components/Pawn/pawn.hpp>
 
 // Include pawn-natives macros (`SCRIPT_API`) and lookups (`IPlayer&`).
-#include <Server/Components/Pawn/pawn_natives.hpp>
+#include <Server/Components/Pawn/Impl/pawn_natives.hpp>
 
 // Include a few function implementations.  Should only be included once.
-#include <Server/Components/Pawn/pawn_impl.hpp>
+#include <Server/Components/Pawn/Impl/pawn_impl.hpp>
 
 // If this data is to be used in other components only share an ABI stable base class.
 struct IPawnExtension : IExtension
